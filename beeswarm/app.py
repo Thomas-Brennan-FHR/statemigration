@@ -4,7 +4,8 @@ from sqlite3 import Error
 
 app = Flask(__name__)
  
-database = "net_migration.sqlite"
+#database = "net_migration.sqlite"
+database = "DATABASE_URL"
 
 @app.route("/")
 def main():
